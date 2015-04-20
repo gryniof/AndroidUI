@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Modern Art UI</string>
+    <string name="color_rect">Solid color rectangle</string>
+    
+    <string name="museum_info">More Information</string>
+
+</resources>

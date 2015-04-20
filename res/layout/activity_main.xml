@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    android:id="@+id/colorsLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:paddingLeft="0dp"
+	    android:paddingRight="0dp"
+	    android:baselineAligned="false"
+	    android:orientation="horizontal" >
+	    
+		<LinearLayout
+	        android:id="@+id/leftLayout" 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:paddingLeft="0dp"
+		    android:paddingRight="0dp"
+		    android:layout_weight="3"
+		    android:gravity="left"
+		    android:orientation="vertical" >
+		 	
+		    <fragment
+		        android:id="@+id/orangeFrag"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        class="coursera.vortex.modernartui.ColorFragment" />
+		    
+	        <fragment
+		        android:id="@+id/baigeFrag"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+		        class="coursera.vortex.modernartui.ColorFragment" />
+
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/rightLayout" 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:paddingLeft="0dp"
+		    android:paddingRight="0dp"
+		    android:layout_weight="2"
+		    android:gravity="right"
+		    android:orientation="vertical" >
+		
+	        <fragment
+		        android:id="@+id/yellowFrag"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+		        class="coursera.vortex.modernartui.ColorFragment" />
+	        
+	        <fragment
+		        android:id="@+id/whiteFrag"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+		        class="coursera.vortex.modernartui.ColorFragment" />
+	        
+	        <fragment
+		        android:id="@+id/redFrag"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+		        class="coursera.vortex.modernartui.ColorFragment" />
+
+		</LinearLayout>
+	    
+	</LinearLayout>
+	    
+	<SeekBar
+		android:id="@+id/changeColorSeekBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:progress="0"           
+		android:max="100" />
+		<!-- android:progressDrawable="@drawable/progressbar" />  -->
+	
+</LinearLayout>
+
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    android:id="@+id/colorsLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:paddingLeft="0dp"
+	    android:paddingRight="0dp"
+	    android:baselineAligned="false"
+	    android:orientation="horizontal" >
+    
+	    <fragment
+	        android:id="@+id/orangeFrag"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        class="coursera.vortex.modernartui.ColorFragment" />
+	     
+	</LinearLayout>
+	    
+	<SeekBar
+		android:id="@+id/changeColorSeekBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:progress="0"           
+		android:max="100" />
+	
+</LinearLayout>
+ -->
