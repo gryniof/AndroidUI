@@ -1,0 +1,1 @@
+This is a project created for the Android online course from Univ of Maryland. It's a simple UI composed of 5 colored rectangles. the color of 4 of the 5 rectangles can be modified with a slider at the bottom of the screen. The code does not have any known problems.
